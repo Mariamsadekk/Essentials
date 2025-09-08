@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Compilation",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "",
+      "expected_output": "",
+      "comparison": "included",
+      "timeout": 10
+    },
+    {
+      "name": "Update GPA Function",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "1\nAlice\n3.5\n2\nBob\n2.9\n3\nCharlie\n3.8\n",  
+      "expected_output": "ID: 2, Name: Bob, GPA: 3.9",  
+      "comparison": "included",
+      "timeout": 10
+    }
+  ]
+}
