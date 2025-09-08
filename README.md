@@ -6,7 +6,7 @@ You are asked to help a small student office at GIU manage basic student records
 - Name  
 - GPA  
 
-The office wants a simple program that demonstrates **structs, pointers, references, and functions**.
+The office wants a simple program that demonstrates **structs, pointers, references, and functions**..
 
 ## Requirements
 1. Define a struct `Student` with the fields: `id`, `name`, and `gpa`.
